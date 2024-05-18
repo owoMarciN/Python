@@ -18,8 +18,10 @@ def newFrame(frameNr, rolls_per_frame, eyeNr, eyeStatistics, limit = 10000):
     
     plt.cla()
     series = sum(eyeStatistics)
+    
     if series > limit-rolls_per_frame:
         mPlotAnimation.pause()
+        
     plot_name = f'Frequency of rolling distinct number of eyes in {series} rolls'
     axis = sns.barplot(x=eyeNr, y=eyeStatistics, palette='mako', hue=eyeNr, legend=False)
     axis.set_title(plot_name)
@@ -32,6 +34,7 @@ def newFrame(frameNr, rolls_per_frame, eyeNr, eyeStatistics, limit = 10000):
         yText = bar.get_height()
         text = f'{roll_count_label}\n{~roll_count_label/series:.3%}'
         axis.text(xText, yText, text, fontsize=10, ha='center', va='bottom')
+
 
 if len(sys.argv) < 3:
     print("Error: The number of arguments is to small!\nYou should try: " \
