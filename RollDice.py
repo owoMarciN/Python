@@ -35,3 +35,5 @@ for bar, roll_count_label in zip(axis.patches, roll_count):
     roll_count_label_str = f'{roll_count_label}'
     text = f'{roll_count_label_str}\n{~roll_count_label/series:.3%}'
     axis.text(xText, yText, text, fontsize=10, ha='center', va='bottom')
+
+plt.show()
