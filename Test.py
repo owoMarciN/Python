@@ -9,9 +9,9 @@ def isPrime(n):
             return False
     return True
 
-
 nums = range(1, 100)
 print("Ex 1.\nPrime numbers form 2 to 100: ", list(i for i in nums if isPrime(i)), '\n')
+
 
 #Exercise 2
 
