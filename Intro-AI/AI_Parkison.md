@@ -1,16 +1,18 @@
 # Instructions used to create AI_Parkison.ipynb
 
 ## Exercise 1. 
-
-
+- Data preperation
 - [ ] Setup and load the dataset
 - [ ] Normalize features, perform 80/20 stratified train/test split.
+- [ ] Visualize class distributions and pairwise relationships.
 
-    Visualize class distributions and pairwise relationships.
+- Supervised Baseline:
+- [ ] Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
+- [ ] 
 
-Supervised Baseline:
 
-    Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
+
+    
     Train with fixed optimizer (Adam) and report metrics: Accuracy, Precision, Recall, F1, AUC.
 
 Unsupervised Representations:
