@@ -2,13 +2,13 @@
 
 ## Exercise 1. 
 - **Data preperation**:
-    - [ ] Setup and load the dataset
-    - [ ] Normalize features, perform 80/20 stratified train/test split.
-    - [ ] Visualize class distributions and pairwise relationships.
+    - [x] Setup and load the dataset
+    - [x] Normalize features, perform 80/20 stratified train/test split.
+    - [x] Visualize class distributions and pairwise relationships.
 
 - **Supervised Baseline**:
-    - [ ] Implement a 30–16–1 `MLP` (ReLU–Sigmoid, BCE Loss).
-    - [ ] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
+    - [x] Implement a 30–16–1 `MLP` (ReLU–Sigmoid, BCE Loss).
+    - [x] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
   
 - **Unsupervised Representations**:
     - [ ] Compare three dimensionality-reduction techniques:
@@ -90,5 +90,5 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIwMDk1MTMsLTk3ODg5NDUxOF19
+eyJoaXN0b3J5IjpbMTUwODA4MDIyMywtOTc4ODk0NTE4XX0=
 -->
