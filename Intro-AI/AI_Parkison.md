@@ -1,35 +1,26 @@
 # Instructions used to create AI_Parkison.ipynb
 
 ## Exercise 1. 
-- Data preperation
+- Data preperation:
     - [ ] Setup and load the dataset
     - [ ] Normalize features, perform 80/20 stratified train/test split.
     - [ ] Visualize class distributions and pairwise relationships.
 
 - Supervised Baseline:
-- [ ] Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
-- [ ] 
+    - [ ] Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
+    - [ ] Train with fixed optimizer (Adam) and report metrics: Accuracy, Precision, Recall, F1, AUC.
+  
+- Unsupervised Representations:
+    - [ ] Compare three dimensionality-reduction techniques:
+        - [ ] K-means clustering: Distances to K-centroids.
+        - [ ] PCA: Top components explaining ≥95% variance.
+        - [ ] Autoencoder: 30–16–8–16–30 structure (extract 8-D bottleneck).
 
-
-
-    
-    Train with fixed optimizer (Adam) and report metrics: Accuracy, Precision, Recall, F1, AUC.
-
-Unsupervised Representations:
-
-Compare three dimensionality-reduction techniques:
-
-    K-means clustering: distances to K centroids.
-    PCA: top components explaining ≥95% variance.
-    Autoencoder: 30–16–8–16–30 structure; extract 8-D bottleneck.
-
-Combined Experiment:
-Feed transformed features (K-means, PCA, Autoencoder) into MLP and compare against the raw baseline.
-Deliverables:
-
-    Figure 1: Visual comparison of 2D representations (PCA vs AE).
-    Table 1a: Effect of representation on model performance.
-    Section 2.1: “Supervised vs Unsupervised Representation Learning.”
+- Combined Experiment:
+    - [ ] Feed transformed features (K-means, PCA, Autoencoder) into MLP and compare against the raw baseline.
+        - [ ] Figure: Visual comparison of 2D representations (PCA vs AE).
+        - [ ] Table: Effect of representation on model performance.
+        - [ ] Section: “Supervised vs Unsupervised Representation Learning.”
 
 //-------------------------------------------------
 //                  Exercise 2. 
