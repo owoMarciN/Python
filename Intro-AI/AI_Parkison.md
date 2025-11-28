@@ -7,8 +7,8 @@
     - [x] Visualize class distributions and pairwise relationships.
 
 - **Supervised Baseline**:
-    - [ ] Implement a 30–16–1 `MLP` (ReLU–Sigmoid, BCE Loss).
-    - [ ] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
+    - [x] Implement a 30–16–1 `MLP` (ReLU–Sigmoid, BCE Loss).
+    - [x] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
   
 - **Unsupervised Representations**:
     - [ ] Compare three dimensionality-reduction techniques:
