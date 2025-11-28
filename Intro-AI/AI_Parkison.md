@@ -1,7 +1,7 @@
 # Instructions used to create AI_Parkison.ipynb
 
 ## Exercise 1. 
-- Data preperation:
+- **Data preperation**:
     - [ ] Setup and load the dataset
     - [ ] Normalize features, perform 80/20 stratified train/test split.
     - [ ] Visualize class distributions and pairwise relationships.
@@ -21,25 +21,6 @@
         - [ ] Figure: Visual comparison of 2D representations (PCA vs AE).
         - [ ] Table: Effect of representation on model performance.
         - [ ] Section: “Supervised vs Unsupervised Representation Learning.”
-
-//-------------------------------------------------
-//                  Exercise 2. 
-//-------------------------------------------------
-
-//-------------------------------------------------
-//                  Exercise 3. 
-//-------------------------------------------------
-
-//-------------------------------------------------
-//                  Exercise 4. 
-//-------------------------------------------------
-
-//-------------------------------------------------
-//                  Exercise 5. 
-//-------------------------------------------------
-
-
-
 
 -------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------
