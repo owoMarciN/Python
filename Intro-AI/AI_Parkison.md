@@ -8,13 +8,13 @@
 
 - **Supervised Baseline**:
     - [ ] Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
-    - [ ] Train with fixed optimizer (Adam) and report metrics: Accuracy, Precision, Recall, F1, AUC.
+    - [ ] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
   
 - **Unsupervised Representations**:
     - [ ] Compare three dimensionality-reduction techniques:
-        - [ ] K-means clustering: Distances to K-centroids.
-        - [ ] PCA: Top components explaining ≥95% variance.
-        - [ ] Autoencoder: 30–16–8–16–30 structure (extract 8-D bottleneck).
+        - [ ] ```K-means``` clustering: Distances to K-centroids.
+        - [ ] ```PCA```: Top components explaining ≥95% variance.
+        - [ ] ```Autoencoder```: 30–16–8–16–30 structure (extract 8-D bottleneck).
 
 - **Combined Experiment**:
     - [ ] Feed transformed features (K-means, PCA, Autoencoder) into MLP and compare against the raw baseline.
