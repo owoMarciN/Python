@@ -2,9 +2,9 @@
 
 ## Exercise 1. 
 - Data preperation
-- [ ] Setup and load the dataset
-- [ ] Normalize features, perform 80/20 stratified train/test split.
-- [ ] Visualize class distributions and pairwise relationships.
+    - [ ] Setup and load the dataset
+    - [ ] Normalize features, perform 80/20 stratified train/test split.
+    - [ ] Visualize class distributions and pairwise relationships.
 
 - Supervised Baseline:
 - [ ] Implement a 30–16–1 MLP (ReLU–Sigmoid, BCE Loss).
