@@ -1,4 +1,4 @@
-# Instructions - AI_Parkison.ipynb
+# Instructions - AI_Parkinson.ipynb
 
 ## Exercise 1. 
 - **Data preperation**:
@@ -90,5 +90,5 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczMzkyNDcsLTk3ODg5NDUxOF19
+eyJoaXN0b3J5IjpbLTE4MDIwMDk1MTMsLTk3ODg5NDUxOF19
 -->
