@@ -1,6 +1,6 @@
-## Instructions:
+# Instructions used to create AI_Parkison.ipynb
 
-# Exercise 1. 
+## Exercise 1. 
 
 
 - [ ] Setup and load the dataset
