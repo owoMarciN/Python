@@ -1,8 +1,7 @@
-Instructions:
+## Instructions:
 
-//-------------------------------------------------
-//                  Exercise 1. 
-//-------------------------------------------------
+# Exercise 1. 
+
 
 - [ ] Setup and load the dataset
 - [ ] Normalize features, perform 80/20 stratified train/test split.
