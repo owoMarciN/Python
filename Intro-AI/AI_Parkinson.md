@@ -60,7 +60,7 @@
 
 ## Exercise 4.
 - **Representation × Optimizer × Tuning Synergy:**
-	- [ ]  Combine each optimized configuration (from Ex. 3) with different feature representations (`baseline`, `K-means`, `PCA`, `Autoencoder`).
+	- [ ] Combine each optimized configuration (from Ex. 3) with different feature representations (`baseline`, `K-means`, `PCA`, `Autoencoder`).
 	- [ ] Evaluate performance for all optimizers (`SGD`, `Momentum`, `RMSProp`, `Adam`).
 	- [ ] Record training time, loss stability, and generalization metrics.
 
