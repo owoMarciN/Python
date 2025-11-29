@@ -11,13 +11,13 @@
     - [x] Train with fixed optimizer (```Adam```) and report metrics: ```Accuracy```, ```Precision```, ```Recall```, ```F1```, ```AUC```.
   
 - **Unsupervised Representations**:
-    - [ ] Compare three dimensionality-reduction techniques:
-        - [ ] ```K-means``` clustering: Distances to K-centroids.
-        - [ ] ```PCA```: Top components explaining ≥95% variance.
-        - [ ] ```Autoencoder```: 30–16–8–16–30 structure (extract 8-D bottleneck).
+    - [x] Compare three dimensionality-reduction techniques:
+        - [x] ```K-means``` clustering: Distances to K-centroids.
+        - [x] ```PCA```: Top components explaining ≥95% variance.
+        - [x] ```Autoencoder```: 30–16–8–16–30 structure (extract 8-D bottleneck).
 
 - **Combined Experiment**:
-    - [ ] Feed transformed features (```K-means```, ```PCA```, ```Autoencoder```) into `MLP` and compare against the raw baseline.
+    - [x] Feed transformed features (```K-means```, ```PCA```, ```Autoencoder```) into `MLP` and compare against the raw baseline.
 
 - **Report**:
 	- [ ] `Figure`: Visual comparison of 2D representations (```PCA``` vs ```AE```).
@@ -90,5 +90,6 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODA4MDIyMywtOTc4ODk0NTE4XX0=
+eyJoaXN0b3J5IjpbODkyMDk4NjYzLDE1MDgwODAyMjMsLTk3OD
+g5NDUxOF19
 -->
