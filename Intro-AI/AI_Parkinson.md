@@ -29,7 +29,7 @@
 	- [x] Train the baseline `MLP` using each optimizer (`SGD`, `Momentum`, `RMSProp`, `Adam`) with fixed hyper-parameters.
 	- [x] Plot and compare:
 		- [x]  `Loss` vs `Epoch` curves.
-		- [ ] Validation `F1` vs `Epoch`.
+		- [x] Validation `F1` vs `Epoch`.
 		- [ ] Add learning rate scheduling (`StepLR` or `CosineAnnealing`).
     - [ ] Discuss `convergence smoothness`, `speed`, and final `accuracy`.
 
@@ -90,6 +90,6 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYxMTE2NDEsODkyMDk4NjYzLDE1MD
-gwODAyMjMsLTk3ODg5NDUxOF19
+eyJoaXN0b3J5IjpbLTg0NzU0MDI4OSwtMTM0NjExMTY0MSw4OT
+IwOTg2NjMsMTUwODA4MDIyMywtOTc4ODk0NTE4XX0=
 -->
