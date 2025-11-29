@@ -20,22 +20,22 @@
     - [x] Feed transformed features (```K-means```, ```PCA```, ```Autoencoder```) into `MLP` and compare against the raw baseline.
 
 - **Report**:
-	- [ ] `Figure`: Visual comparison of 2D representations (```PCA``` vs ```AE```).
+	- [x] `Figure`: Visual comparison of 2D representations (```PCA``` vs ```AE```).
 	- [ ] `Table`: Effect of representation on model performance.
 	- [ ] `Section`: “Supervised vs Unsupervised Representation Learning.”
 
 ## Exercise 2.
 - **Study of Optimizers**:
-	- [ ] Train the baseline `MLP` using each optimizer (`SGD`, `Momentum`, `RMSProp`, `Adam`) with fixed hyper-parameters.
-	- [ ] Plot and compare:
-		- [ ]  `Loss` vs `Epoch` curves.
+	- [x] Train the baseline `MLP` using each optimizer (`SGD`, `Momentum`, `RMSProp`, `Adam`) with fixed hyper-parameters.
+	- [x] Plot and compare:
+		- [x]  `Loss` vs `Epoch` curves.
 		- [ ] Validation `F1` vs `Epoch`.
 		- [ ] Add learning rate scheduling (`StepLR` or `CosineAnnealing`).
     - [ ] Discuss `convergence smoothness`, `speed`, and final `accuracy`.
 
 - **Report**:
-	- [ ] `Figure`: Loss curves for all optimizers.
-	- [ ] `Table`: `Accuracy`, `F1`, and `convergence speed`.
+	- [x] `Figure`: Loss curves for all optimizers.
+	- [x] `Table`: `Accuracy`, `F1`, and `convergence speed`.
 	- [ ] `Section`: “Effect of Optimizer Choice on Learning Stability.”
 
 ## Exercise 3.
@@ -90,6 +90,6 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMDk4NjYzLDE1MDgwODAyMjMsLTk3OD
-g5NDUxOF19
+eyJoaXN0b3J5IjpbLTEzNDYxMTE2NDEsODkyMDk4NjYzLDE1MD
+gwODAyMjMsLTk3ODg5NDUxOF19
 -->
