@@ -30,7 +30,7 @@
 	- [x] Plot and compare:
 		- [x]  `Loss` vs `Epoch` curves.
 		- [x] Validation `F1` vs `Epoch`.
-		- [ ] Add learning rate scheduling (`StepLR` or `CosineAnnealing`).
+		- [x] Add learning rate scheduling (`StepLR` or `CosineAnnealing`).
     - [ ] Discuss `convergence smoothness`, `speed`, and final `accuracy`.
 
 - **Report**:
@@ -90,6 +90,7 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzU0MDI4OSwtMTM0NjExMTY0MSw4OT
-IwOTg2NjMsMTUwODA4MDIyMywtOTc4ODk0NTE4XX0=
+eyJoaXN0b3J5IjpbLTE5OTg3OTYxODUsLTg0NzU0MDI4OSwtMT
+M0NjExMTY0MSw4OTIwOTg2NjMsMTUwODA4MDIyMywtOTc4ODk0
+NTE4XX0=
 -->
