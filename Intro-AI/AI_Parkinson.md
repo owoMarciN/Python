@@ -40,11 +40,11 @@
 
 ## Exercise 3.
 - **Advanced Hyper-parameter Optimization Methods:**
-	- [ ]  `Grid Search` — Evaluate every combination (deterministic).
-    - [ ] `Random Search` — Randomly sample `λ` (efficient for large spaces).
-    - [ ] `Bayesian Optimization` — Build surrogate model of performance.
-    - [ ] `Hyperband` / `BOHB` — Adaptive resource allocation.
-    - [ ] `Evolutionary` / `Metaheuristic Search` — `GA`, `PSO`, `DE` for `AutoML`.
+	- [x]  `Grid Search` — Evaluate every combination (deterministic).
+    - [x] `Random Search` — Randomly sample `λ` (efficient for large spaces).
+    - [x] `Bayesian Optimization` — Build surrogate model of performance.
+    - [x] `Hyperband` / `BOHB` — Adaptive resource allocation.
+    - [x] `Evolutionary` / `Metaheuristic Search` — `GA`, `PSO`, `DE` for `AutoML`.
 
  - **Experimental Protocol**:
 	- [x] Define search space Λ = \{η, μ, h, λ, batch size\}, with :
@@ -54,7 +54,7 @@
     - [x] Compare `efficiency` of each trial to reach top performance.
 
 - **Report**:
-	- [ ] `Figure`: Performance trajectory (best F1 vs iteration) for each tuning algorithm.
+	- [x] `Figure`: Performance trajectory (best F1 vs iteration) for each tuning algorithm.
 	- [ ] `Table`: Best hyper-parameters and performance summary.
 	- [ ] `Section`: “Comparative Analysis of Hyper-parameter Optimization Methods.”
 
