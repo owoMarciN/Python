@@ -47,11 +47,11 @@
     - [ ] `Evolutionary` / `Metaheuristic Search` — `GA`, `PSO`, `DE` for `AutoML`.
 
  - **Experimental Protocol**:
-	- [ ] Define search space Λ = \{η, μ, h, λ, batch size\}, with :
+	- [x] Define search space Λ = \{η, μ, h, λ, batch size\}, with :
 		η ∈ [1e−4, 1e−1], µ ∈ [0.7, 0.99], h ∈ {8, 16, 32}, λ ∈ [0, 0.01].
-	- [ ] Apply all five tuning methods for a fixed budget (e.g., 25 trials).
-    - [ ] Evaluate validation `F1` and total computational cost.
-    - [ ] Compare efficiency of each trials to reach top performance.
+	- [x] Apply all five tuning methods for a fixed budget (e.g., 25 trials).
+    - [ ] Evaluate validation `F1` and `total computational cost`.
+    - [ ] Compare `efficiency` of each trial to reach top performance.
 
 - **Report**:
 	- [ ] `Figure`: Performance trajectory (best F1 vs iteration) for each tuning algorithm.
@@ -90,7 +90,7 @@
     
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg3OTYxODUsLTg0NzU0MDI4OSwtMT
-M0NjExMTY0MSw4OTIwOTg2NjMsMTUwODA4MDIyMywtOTc4ODk0
-NTE4XX0=
+eyJoaXN0b3J5IjpbLTUzMjkzNjIwMCwtMTk5ODc5NjE4NSwtOD
+Q3NTQwMjg5LC0xMzQ2MTExNjQxLDg5MjA5ODY2MywxNTA4MDgw
+MjIzLC05Nzg4OTQ1MThdfQ==
 -->
