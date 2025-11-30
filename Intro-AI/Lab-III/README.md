@@ -21,7 +21,7 @@
 
 - **Report**:
 	- [x] `Figure`: Visual comparison of 2D representations (```PCA``` vs ```AE```).
-	- [ ] `Table`: Effect of representation on model performance.
+	- [x] `Table`: Effect of representation on model performance.
 	- [ ] `Section`: “Supervised vs Unsupervised Representation Learning.”
 
 ## Exercise 2.
@@ -31,12 +31,12 @@
 		- [x]  `Loss` vs `Epoch` curves.
 		- [x] Validation `F1` vs `Epoch`.
 		- [x] Add learning rate scheduling (`StepLR` or `CosineAnnealing`).
-    - [ ] Discuss `convergence smoothness`, `speed`, and final `accuracy`.
+    - [x] Discuss `convergence smoothness`, `speed`, and final `accuracy`.
 
 - **Report**:
 	- [x] `Figure`: Loss curves for all optimizers.
 	- [x] `Table`: `Accuracy`, `F1`, and `convergence speed`.
-	- [ ] `Section`: “Effect of Optimizer Choice on Learning Stability.”
+	- [x] `Section`: “Effect of Optimizer Choice on Learning Stability.”
 
 ## Exercise 3.
 - **Advanced Hyper-parameter Optimization Methods:**
@@ -55,14 +55,14 @@
 
 - **Report**:
 	- [x] `Figure`: Performance trajectory (best F1 vs iteration) for each tuning algorithm.
-	- [ ] `Table`: Best hyper-parameters and performance summary.
+	- [x] `Table`: Best hyper-parameters and performance summary.
 	- [ ] `Section`: “Comparative Analysis of Hyper-parameter Optimization Methods.”
 
 ## Exercise 4.
 - **Representation × Optimizer × Tuning Synergy:**
-	- [ ] Combine each optimized configuration (from Ex. 3) with different feature representations (`baseline`, `K-means`, `PCA`, `Autoencoder`).
-	- [ ] Evaluate performance for all optimizers (`SGD`, `Momentum`, `RMSProp`, `Adam`).
-	- [ ] Record training time, loss stability, and generalization metrics.
+	- [x] Combine each optimized configuration (from Ex. 3) with different feature representations (`baseline`, `K-means`, `PCA`, `Autoencoder`).
+	- [x] Evaluate performance for all optimizers (`SGD`, `Momentum`, `RMSProp`, `Adam`).
+	- [x] Record training time, loss stability, and generalization metrics.
 
 ## Exercise 5.
 - **Research Paper Compilation:**
